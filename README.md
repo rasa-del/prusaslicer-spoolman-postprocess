@@ -1,8 +1,6 @@
 # prusaslicer-spoolman-postprocess
 Windows batch post-processing for PrusaSlicer that copies the generated G-code to a local archive and updates Spoolman automatically by reading SPOOLMAN_ID and “filament used [g]” from the file. Simple, dependency-free, and LAN-friendly. Includes setup instructions, troubleshooting tips, exit codes, and MIT license. Works on Windows 10/11.No Python
 
-понял. добавил чёткое пояснение: **SPOOLMAN_ID — это номер катушки (Spool) из Spoolman**, заранее созданной в UI. Ниже обновлённый README одним файлом (EN).
-
 # PrusaSlicer → Spoolman Post-Processing (Windows)
 
 A tiny **Windows batch** post-processing script for **PrusaSlicer** that:
